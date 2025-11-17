@@ -17,8 +17,8 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'Responsive portfolio website with smooth animations, interactive elements, and optimized performance.',
       tags: ['Next.Js', 'tailwindCSS', 'TypeScript'],
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/gitsunil577/Personal_Portfolio',
+      demo: 'https://personal-portfolio-tau-flax-86.vercel.app/'
     },
     {
       icon: FaHospital,
