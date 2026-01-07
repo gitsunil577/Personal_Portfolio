@@ -1,27 +1,35 @@
 'use client'
 
-import { FaCode, FaServer, FaTools } from 'react-icons/fa'
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiNodedotjs, SiPython, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiDocker, SiMysql, SiPostman, SiExpress, SiAnaconda, SiVercel, SiRender } from 'react-icons/si'
+import { FaCode, FaServer, FaTools, FaJava } from 'react-icons/fa'
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiNodedotjs, SiPython, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiDocker, SiPostman, SiExpress, SiVercel, SiGooglecloud, SiAmazonaws, SiPostgresql, SiGithubactions } from 'react-icons/si'
 
 const Skills = () => {
   const technologies = [
+    // Programming Languages
+    { icon: SiPython, name: 'Python', color: '#FFE873' },
+    { icon: FaJava, name: 'Java', color: '#007396' },
+    { icon: SiJavascript, name: 'JavaScript', color: '#F7DF1E' },
+    // Web Development
     { icon: SiHtml5, name: 'HTML5', color: '#E34F26' },
     { icon: SiCss3, name: 'CSS3', color: '#1572B6' },
-    { icon: SiJavascript, name: 'JavaScript', color: '#F7DF1E' },
     { icon: SiReact, name: 'React', color: '#61DAFB' },
-    { icon: SiTailwindcss, name: 'Tailwind', color: '#06B6D4' },
     { icon: SiNodedotjs, name: 'Node.js', color: '#339933' },
-    { icon: SiPython, name: 'Python', color: '#FFE873' },
+    { icon: SiExpress, name: 'Express', color: '#FFFFFF' },
+    { icon: SiTailwindcss, name: 'Tailwind', color: '#06B6D4' },
+    // Databases
+    { icon: SiMongodb, name: 'MongoDB', color: '#589636' },
+    { icon: SiPostgresql, name: 'PostgreSQL', color: '#4169E1' },
+    // Cloud & DevOps
+    { icon: SiGooglecloud, name: 'Google Cloud', color: '#4285F4' },
+    { icon: SiAmazonaws, name: 'AWS', color: '#FF9900' },
+    { icon: SiDocker, name: 'Docker', color: '#2496ED' },
+    { icon: SiGithubactions, name: 'GitHub Actions', color: '#2088FF' },
+    { icon: SiVercel, name: 'Vercel', color: '#000000' },
+    // Tools
     { icon: SiGit, name: 'Git', color: '#F05032' },
     { icon: SiGithub, name: 'GitHub', color: '#181717' },
     { icon: SiVisualstudiocode, name: 'VS Code', color: '#007ACC' },
-    { icon: SiPostman, name: 'Postman', color: '#EF5B25' },
-    { icon: SiMongodb, name: 'MongoDB', color: '#589636' },
-    { icon: SiExpress, name: 'Express', color: 'black' },
-    {icon:SiVercel, name: 'Vercel', color: '#000000'},
-    {icon:SiAnaconda, name: 'Anaconda', color: '#44A833'},
-    {icon:SiRender, name: 'Render', color: '#24B47E'},
-    { icon: SiDocker, name: 'Docker', color: '#2496ED' }
+    { icon: SiPostman, name: 'Postman', color: '#EF5B25' }
   ]
 
   return (

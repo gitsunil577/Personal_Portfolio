@@ -30,7 +30,7 @@ const About = () => {
           {/* Content */}
           <div className="space-y-6">
             <h3 className="text-3xl font-bold">
-              I&apos;m a Web Developer
+              I&apos;m a FullStack Developer
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed">
               My passion lies in bringing ideas to life through code,

@@ -21,7 +21,9 @@ const Navbar = () => {
     { href: '#education', label: 'Education' },
     { href: '#skills', label: 'Skills' },
     { href: '#projects', label: 'Projects' },
+    { href: '#achievements', label: 'Achievements' },
     { href: '#experience', label: 'Experience' },
+    { href: '#resume', label: 'Resume' },
     { href: '#contact', label: 'Contact' },
   ]
 

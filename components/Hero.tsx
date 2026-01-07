@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaChevronDown } from 'react-icons/fa'
 
 const Hero = () => {
@@ -104,8 +105,15 @@ const Hero = () => {
           {/* Image/Animation */}
           <div className="relative flex items-center justify-center">
             <div className="w-72 h-72 md:w-96 md:h-96 rounded-full glass flex items-center justify-center animate-float">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <span className="text-8xl">👨‍💻</span>
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center overflow-hidden">
+                <Image
+                  src="/images/profile.png"
+                  alt="Sunil Dalai Profile"
+                  width={320}
+                  height={320}
+                  className="object-cover w-full h-full rounded-full"
+                  priority
+                />
               </div>
             </div>
           </div>

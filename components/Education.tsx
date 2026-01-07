@@ -21,7 +21,7 @@ const Education = () => {
     {
       date: '2019 - 2020',
       degree: 'Secondary Education',
-      institution: 'Mahamayee High School, Panthikari',
+      institution: 'Saraswati Sishu Vidya Bhaban, Bellaguntha',
       description: 'Built a strong foundation in core subjects and discovered passion for technology and programming.',
       achievement: 'Percentage: 78%'
     }
